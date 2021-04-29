@@ -1,0 +1,51 @@
+{
+  "header": {
+    "sizeGuide": "Size guide"
+  },
+  "genders": {
+    "women": "Women",
+    "men": "Men",
+    "kids": "Kids"
+  },
+  "women": {
+    "clothes": "Clothes",
+    "shoes": "Shoes"
+  },
+  "men": {
+    "tops": "Tops",
+    "trousers": "Trousers",
+    "jackets": "Jackets",
+    "shorts": "Shorts",
+    "shoes": "Shoes"
+  },
+  "kids": {
+    "things": {
+      "clothes": "Clothes",
+      "shoes": "Shoes"
+    },
+    "age": "Age",
+    "tinyBabe": "Tiny Babe",
+    "newborn": "Newborn",
+    "ageClothes": {
+      "babies": "Babies",
+      "children": "Children",
+      "teenBoys": "Teen Boys",
+      "teenGirls": "Teen Girls"
+    },
+    "ageShoes": {
+      "infant": "Infant",
+      "toddler": "Toddler",
+      "junior": "Junior"
+    }
+  },
+  "language": {
+    "english": "English",
+    "russian": "Русский"
+  },
+  "size": "Size",
+  "bust": "Bust",
+  "waist": "Waist",
+  "hips": "Hips",
+  "chest": "Chest",
+  "inches": "inches"
+}

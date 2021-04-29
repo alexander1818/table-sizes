@@ -1,0 +1,41 @@
+.men {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.wrapper-men__things {
+  width: 100%;
+  display: flex;
+}
+.men-things {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #999999;
+  border-bottom: 2px solid #efefef;
+  cursor: pointer;
+}
+.men-things__table,
+.kids-things__table {
+  width: 100%;
+}
+.men-things__item {
+  margin: 35px 0 10px 0;
+}
+.men-things__active {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .men {
+    padding: 0 0px;
+  }
+}

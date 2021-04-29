@@ -1,38 +1,206 @@
-.App {
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background: #c4c4c4;
+  height: 100vh;
+}
+.background {
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  left: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #efefef;
+}
+.header-title {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin: 32px 0 24px 0;
+  line-height: 132%;
+  letter-spacing: 0.6px;
+}
+.header-close {
+  position: absolute;
+  top: 24px;
+  right: 33px;
+}
+.modal {
+  width: 45%;
+  z-index: 1;
+  background: #fff;
+  position: fixed;
+  margin-left: auto;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+  transition: 0.2s ease-in-out;
+  transform: translateX(0%);
+}
+.modal-close {
+  width: 45%;
+  z-index: 1;
+  background: #fff;
+  position: fixed;
+  margin-left: auto;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+  transition: 0.2s ease-in-out;
+  transform: translateX(100%);
+}
+.genderWrapper {
+  width: 100%;
+}
+.gender {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.gender-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #999999;
+  border-bottom: 2px solid #efefef;
+  cursor: pointer;
+}
+.gender-item__text {
+  margin: 16px 0 10px 0;
+}
+.gender-item__active {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  border-bottom: 2px solid #ed484f;
+}
+.clothes {
+  width: 100%;
+}
+.women-shoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.tops,
+.trousers,
+.jackets,
+.shorts,
+.shoes-kids__junior {
+  width: 65%;
+  margin: 0 auto;
+}
+.shoes {
+  width: 85%;
+  margin: 0 auto;
+}
+.size-guide {
+  display: flex;
+  padding: 0 20px;
+  width: 100%;
+}
+.size-guide__things--active {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+  border-bottom: 2px solid #000;
+  cursor: pointer;
+}
+.size-guide-things {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #999999;
+  border-bottom: 2px solid #efefef;
+  cursor: pointer;
+}
+.size-guide__things--item {
+  width: 100%;
+  margin: 35px 0 10px 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper-btn {
+  width: 55%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column-reverse;
+  position: absolute;
+  height: 100vh;
+}
+.btn {
+  background: transparent;
+  color: rgb(249, 253, 16);
+  padding: 10px 20px;
+  border: 2px solid rgb(249, 253, 16);
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 1280px) {
+  .modal {
+    width: 60%;
+    padding: 0 4px;
   }
-  to {
-    transform: rotate(360deg);
+  .tops,
+  .trousers,
+  .jackets,
+  .shorts,
+  .shoes,
+  .shoes-kids__junior {
+    width: 80%;
+  }
+}
+@media (max-width: 960px) {
+  .modal {
+    width: 80%;
+    padding: 0 4px;
+  }
+  .tops,
+  .trousers,
+  .jackets,
+  .shorts,
+  .shoes,
+  .shoes-kids__junior {
+    width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .modal {
+    width: 90%;
+    padding: 0 4px;
+    margin-top: 40px;
+  }
+  .tops,
+  .trousers,
+  .jackets,
+  .shorts,
+  .shoes,
+  .shoes-kids__junior {
+    width: 100%;
   }
 }

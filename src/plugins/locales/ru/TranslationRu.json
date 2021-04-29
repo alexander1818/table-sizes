@@ -1,0 +1,51 @@
+{
+  "header": {
+    "sizeGuide": "Таблица размеров"
+  },
+  "genders": {
+    "women": "Женские",
+    "men": "Мужские",
+    "kids": "Детские"
+  },
+  "women": {
+    "clothes": "Одежда",
+    "shoes": "Обувь"
+  },
+  "men": {
+    "tops": "Верхняя одежда",
+    "trousers": "Брюки",
+    "jackets": "Куртки",
+    "shorts": "Шорты",
+    "shoes": "Обувь"
+  },
+  "kids": {
+    "things": {
+      "clothes": "Вещи",
+      "shoes": "Обувь"
+    },
+    "age": "Возраст",
+    "tinyBabe": "Кроха",
+    "newborn": "Новорожденный",
+    "ageClothes": {
+      "babies": "Младенцы",
+      "children": "Дети",
+      "teenBoys": "Мальчики подростки",
+      "teenGirls": "Девочки подростки"
+    },
+    "ageShoes": {
+      "infant": "Новорожденный",
+      "toddler": "Младенец",
+      "junior": "Юноша"
+    }
+  },
+  "language": {
+    "english": "English",
+    "russian": "Русский"
+  },
+  "size": "Размер",
+  "bust": "Бюст",
+  "waist": "Талия",
+  "hips": "Бедра",
+  "chest": "Грудь",
+  "inches": "Дюймы"
+}
